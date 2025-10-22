@@ -12,27 +12,26 @@ public class SimpleCalculator {
         System.out.print("Enter second number: ");
         int secondNumber = input.nextInt();
 
-        int sum         = (firstNumber + secondNumber);
-        int difference  = (firstNumber - secondNumber);
-        int product     = (firstNumber * secondNumber);
+        int sum        = firstNumber + secondNumber;
+        int difference = firstNumber - secondNumber;
+        int product    = firstNumber * secondNumber;
 
         System.out.println();
         System.out.println("Results:");
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
         System.out.println("Product: " + product);
-        
+
         if (secondNumber != 0) {
-        float quotient  = (firstNumber / secondNumber);
-        int remainder   = (firstNumber % secondNumber);
+            double quotient  = (double) firstNumber / secondNumber;
+            int    remainder = firstNumber % secondNumber;
 
-        System.out.println("Quotient: " + quotient);
-        System.out.println("Remainder: " + remainder);
-
+            System.out.printf("Quotient: %.2f%n", quotient);  // 2 decimal places
+            System.out.println("Remainder: " + remainder);
         } else {
             System.out.println("Quotient: Cannot divide by zero");
             System.out.println("Remainder: Cannot divide by zero");
-        } 
+        }
 
         input.close();
     }
