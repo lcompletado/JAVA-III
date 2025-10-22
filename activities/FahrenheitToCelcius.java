@@ -11,7 +11,7 @@ public class FahrenheitToCelsius {
 
         double celcius = (fahrenheit - 32) * 5 / 9;
         System.out.printf("Temperature in Celsius: %.2f °C", celsius);
-    
+
         input.close();
     }
 }
