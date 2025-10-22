@@ -7,11 +7,11 @@ public class CircleAreaCalculator {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter radius of the circle: ");
-        float radius = input.nextFloat();
+        double radius = input.nextDouble();
 
         double area = Math.PI * Math.pow(radius, 2);
-        System.out.printf("The area of the circle is: %.2f", area);
-    
+        System.out.printf("The area of the circle is: %,.2f", area);
+
         input.close();
     }
 }
