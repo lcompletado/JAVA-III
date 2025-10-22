@@ -8,14 +8,14 @@ public class UserIntroduction {
         Scanner input = new Scanner(System.in);
 
         System.out.print("What is your name? ");
-        String name = input.nextLine();
+        String name = input.nextLine().trim();
 
         System.out.print("How old are you? ");
-        byte age = input.nextByte();
+        int age = input.nextInt();
         input.nextLine();
 
         System.out.print("What is your favorite hobby? ");
-        String hobby = input.nextLine();
+        String hobby = input.nextLine().trim();
 
         System.out.println("Nice to meet you, " + name + "!");
         System.out.println("You are " + age + " years old and love " + hobby);
