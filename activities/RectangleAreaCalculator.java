@@ -7,12 +7,12 @@ public class RectangleAreaCalculator {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter length: ");
-        float len = input.nextFloat();
+        double length = input.nextDouble();
 
         System.out.print("Enter width: ");
-        float wid = input.nextFloat();
+        double width = input.nextDouble();
         
-        float area = (len * wid);
+        double area = (length * width);
         System.out.println("The area of the triangle is: " + area);
     
         input.close();
