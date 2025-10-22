@@ -1,16 +1,16 @@
 package activities;
 import java.util.Scanner;
 
-public class FahrenheitToCelcius {
+public class FahrenheitToCelsius {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter temperature in Fahrenheit: ");
-        float fahrenheit = input.nextFloat();
+        double fahrenheit = input.nextDouble();
 
-        float celcius = (fahrenheit - 32) * 5 / 9;
-        System.out.printf("Temperature in Celcius: %.2f °C", celcius);
+        double celcius = (fahrenheit - 32) * 5 / 9;
+        System.out.printf("Temperature in Celsius: %.2f °C", celsius);
     
         input.close();
     }
