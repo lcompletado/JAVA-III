@@ -9,7 +9,7 @@ public class SumCalculator {
         System.out.print("Enter a number: ");
         int number = input.nextInt();
 
-        int i = 1;
+        int i   = 1;
         int sum = 0;
 
        System.out.print("The sum from 1 to " + number + " is: ");
@@ -18,10 +18,10 @@ public class SumCalculator {
         sum += i;
         System.out.print(i);
 
-        if (i < number) { 
+        if (i < number) {
                 System.out.print(" + ");
             }
-            i++; 
+            i++;
         }
 
         System.out.println(" = " + sum);
