@@ -6,14 +6,14 @@ public class TriangleAreaCalculator {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter the base: ");
-        float base = input.nextFloat();
+        double base = input.nextDouble();
 
         System.out.print("Enter the height: ");
-        float height = input.nextFloat();
+        double height = input.nextDouble();
 
-        float area = (1f/2) * base * height;
+        double area = 0.5 * base * height;
         System.out.println("The area of the triangle: " + area);
-    
+
         input.close();
     }
 }
