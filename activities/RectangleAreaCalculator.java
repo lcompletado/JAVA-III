@@ -11,10 +11,10 @@ public class RectangleAreaCalculator {
 
         System.out.print("Enter width: ");
         double width = input.nextDouble();
-        
+
         double area = (length * width);
         System.out.println("The area of the triangle is: " + area);
-    
+
         input.close();
     }
 }
