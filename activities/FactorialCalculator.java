@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class FactorialCalculator {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int factorial = 1;
+        Scanner input     = new Scanner(System.in);
+        int     factorial = 1;
 
         System.out.print("Enter a number: ");
         int number = input.nextInt();
@@ -17,8 +17,8 @@ public class FactorialCalculator {
 
         if (i < number) {
             System.out.print(" x ");
+            }
         }
-    }
 
 
         System.out.print(" = " + factorial);
