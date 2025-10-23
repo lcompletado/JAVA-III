@@ -2,7 +2,7 @@ package activities;
 import java.util.Scanner;
 
 public class DescendingPrinter {
-    
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
