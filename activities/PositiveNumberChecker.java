@@ -16,10 +16,9 @@ public class PositiveNumberChecker {
             }
 
         } while (number < 0);
-            
+
         System.out.println("Thank you! You entered: " + number);
 
         input.close();
     }
-    
 }
