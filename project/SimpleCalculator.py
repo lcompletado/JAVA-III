@@ -1,4 +1,4 @@
-first_number = float(input("Enter the first number: "))
+first_number = float(input("Enter the first number Yohoooo: "))
 operator = input("Enter an operator (+, -, *, /): ").strip()
 second_number = float(input("Enter the second number: "))
 
